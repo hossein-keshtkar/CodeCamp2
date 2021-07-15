@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS.css">
+            <nav class="navbar navbar-header navbar-fixed-top">
+                <div class="navbar-logo">
+                    <a href="#" class="logo-link">
+                        <img class="img-logo" src="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">         
+                        <div class="logo-caption">
+                            FCC: Survey Form 
+                            <div class="weblink">
+                                freeCodeCamp.org
+                            </div>
+                            <span>
+                                <button class="follow">
+                                    <div class="follow-text">
+                                        + Follow
+                                    </div>
+                                </button>
+                            </span>     
+                        </div>
+                    </a>
+                </div>    
+            </nav>    
+            <h1 id='title'>
+                freeCodeCamp Survey Form
+            </h1>
+            <p id='description'>
+                Thank you for taking the time to help us improve the platform
+            </p>  
+    </head>
+    <body>
+        <div class="container">
+            <form class="survey" id="survey-form">
+                <div id="name" class="name"> Name
+                    <div>
+                        <input type="text" id="input" placeholder="Enter your name" required>
+                    </div>    
+                </div>
+                <div id="email" class="name"> Email
+                    <div>
+                        <input type="text" id="input" placeholder="Enter your email" required>
+                    </div>   
+                </div>
+                <div id="name" class="name"> Age (optional)
+                    <div>
+                        <input type="text" id="input" placeholder="Age">
+                    </div>
+                </div>
+                <div id="name" class="name"> Which option best describes your current role?
+                    <label for="pet-select">
+                    <div>
+                    </label>
+                        <select name="pets" id="input">
+                            <option value="">Select current role</option>
+                            <option value="dog">Student</option>
+                            <option value="cat">Full Time Job</option>
+                            <option value="hamster">Full Time Learner</option>
+                            <option value="parrot">Prefer not to Say</option>
+                            <option value="spider">Other</option>
+                        </select>
+                        </div> 
+                    </div>
+                    <div id="name" class="name">Would you recommend freeCodeCamp to a friend?
+                        <div id="radio">
+                            <input type="radio" name="recommend" value="Definitely" checked>Definitely<br>
+                            <input type="radio" name="recommend" value="Maybe">Maybe<br>
+                            <input type="radio" name="recommend" value="Not sure">Not sure<br>
+                        </div>   
+                    </div>
+                    <div id="name" class="name">What is your favorite feature of freeCodeCamp?
+                        <div>
+                            <input type="text"  id="input" placeholder="Select an option">
+                        </div>
+                    </div>
+                    <div id="name" class="name">
+                        What would you like to see improved? (Check all that apply)
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Front-end"> Front-end Projects<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Back-end"> Back-end Projects<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value=" Visualization"> Data Visualization<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Challenges"> Challenges<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Community"> Open Source Community<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Gitter"> Gitter help rooms<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Videos"> Videos<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Meetups"> City Meetups<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Wiki"> Wiki<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Forum"> Forum<br>
+                    </div>
+                    <div id="name-checkbox">
+                        <input type="checkbox" name="improve" value="Courses"> Additional Courses<br>
+                    </div>
+                    <div id="name" class="name">
+                        Any comments or suggestions?
+                        <div>
+                            <textarea name="comment" form="usrform" id="comment">Enter your comment here...</textarea>
+                        </div>             
+                    </div>
+                    <button class="submit">
+                        <div class="submit-text">
+                            Submit
+                        </div>
+                    </button>
+                </div>
+            </form>
+        </body>
+    </html>
